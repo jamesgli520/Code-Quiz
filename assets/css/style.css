@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.containerBody{
+    margin-top: 15%;
+    font-family: sans-serif;
+}
+
+
+h1, div{
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p, #questions, #answers{
+    font-size: 25px;
+}
+
+button{
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#answers div{
+    display: block;
+    
+}
+
+#label1, #label2, #label3, #label4{
+   display: block;
+   text-align: center;
+   margin: 10px;
+   
+}
