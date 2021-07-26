@@ -39,9 +39,9 @@ It deletes all the initial and score.<br>
 
 ## Link to Deployed Application
 
-Live: 
+Live: https://jamesgli520.github.io/Code-Quiz/
 
-Github repository: 
+Github repository: https://github.com/jamesgli520/Code-Quiz
 
 ## License & copyright
 
