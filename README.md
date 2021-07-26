@@ -4,13 +4,13 @@
 
 ## Description
 
-This is a javascript code quiz that with severial fountionalities:<br><br>
+This is a javascript code quiz with several funtionalities:<br><br>
 **A Start button:**<br>
 When clicked, the quiz started and the timer started as well<br>
 It shows a question per time with four anwers, only one correct answer.<br>
 When the answers is correct, it jumps to next question, on the other hand<br>
 the time will minus 10 seconds if the wrong answer is clicked.<br>
-Everything question has 10 second to find the correct answer. In this case<br>
+For each question, it worths 10 points. In this case<br>
 this quiz has only three question, so the time is 30 second.<br>
 The score is accoding to the time, if the time is 20 second after all the<br> question been answered, the score will be 20.<br>
 
