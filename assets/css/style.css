@@ -5,7 +5,7 @@
 }
 
 .containerBody{
-    margin-top: 15%;
+    margin: 200px;
     font-family: sans-serif;
 }
 
@@ -16,13 +16,27 @@ h1, div{
     margin-top: 25px;
 }
 
-h1{
-    font-size: 50px;
+h1, h2{
+    font-size: 40px;
+}
+
+h2{
+    display: block;
+    margin: 50px;
+    text-align: right;
+    background-color: darkgrey;
+
 }
 
 p, #questions, #answers{
     font-size: 25px;
 }
+
+#questions, #answers{
+    margin: 50px
+}
+
+
 
 button{
     font-size: 25px;
@@ -35,9 +49,56 @@ button{
     
 }
 
-#label1, #label2, #label3, #label4{
-   display: block;
-   text-align: center;
-   margin: 10px;
+#label1, #label2, #label3, #label4 {
+   display: table;
+   text-align: left;
+   margin-top: 20px;
+   border: 2px solid darkgrey;
+   border-radius: 10px;
    
+ 
+}
+
+#label1:hover, #label2:hover, #label3:hover, #label4:hover {
+    background-color: darkgrey;
+    box-shadow: 0px 0px 50px darkgrey;
+}
+
+#divBlock{
+    display: block;
+    text-align: left;
+    /* margin-left: 400px; */
+}
+
+#A, #B, #C, #D :hover{
+   background-color: red;
+ }
+
+#initialInput, #input, #showTimeScore{
+    font-size: 25px;
+}
+
+ #input, #submit{
+     margin-right: 15px;
+
+ }
+
+ #timeScoreLabel{
+     background-color: darkgrey;
+ }
+
+ #allScoreButton{
+    margin-bottom: 50px;
+ }
+
+#backButton, #clearButton, #viewHighestScoreButton{
+    margin-left: 15px;
+}
+
+#correctLabel{
+    display: block;
+    text-align: left;
+    font-size:50px;
+    margin: 50px;
+    
 }
